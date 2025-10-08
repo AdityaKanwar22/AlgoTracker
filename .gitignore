@@ -1,0 +1,15 @@
+# IntelliJ IDEA files
+
+
+# Compiled class files
+out/
+target/
+bin/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
