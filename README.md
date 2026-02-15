@@ -1,197 +1,211 @@
-📊 AlgoTracker – Algorithm Performance Analyzer (Java)
+# 📊✨ AlgoTracker  
+### 🚀 Algorithm Performance Analyzer (Java)
 
-AlgoTracker is a modular Java console application designed to execute, compare, and analyze the performance of various algorithms including sorting, searching, and graph algorithms.
+<p align="center">
+  <b>Modular • OOP-Driven • Performance-Oriented • Resume-Ready</b>
+</p>
 
-This project demonstrates strong Object-Oriented Programming (OOP) principles, clean architecture, and practical understanding of Data Structures and Algorithms.
+---
 
-🚀 Features
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Java-red?style=for-the-badge&logo=java" />
+  <img src="https://img.shields.io/badge/Architecture-Modular-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OOP-Principles-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Data%20Structures-orange?style=for-the-badge" />
+</p>
 
-👤 User Registration & Login System
+---
 
-🔄 Sorting Algorithms
+## 🌟 About The Project
 
-Bubble Sort
+**AlgoTracker** is a modular Java console application designed to execute, compare, and analyze the performance of various algorithms including:
 
-Selection Sort
+- Sorting Algorithms
+- Searching Algorithms
+- Graph Algorithms
 
-Merge Sort
+This project demonstrates strong **Object-Oriented Programming (OOP)** principles, clean architecture, and a practical understanding of **Data Structures & Algorithms**.
 
-Quick Sort
+---
 
-🔍 Searching Algorithms
+# 🚀 Features
 
-Linear Search
+## 👤 Authentication System
+- 🔐 User Registration
+- 🔑 Login System
+- 📂 Result Export Support
 
-Binary Search
+---
 
-🌐 Graph Algorithms
+## 🔄 Sorting Algorithms
+- Bubble Sort
+- Selection Sort
+- Merge Sort
+- Quick Sort
 
-Breadth-First Search (BFS)
+---
 
-Depth-First Search (DFS)
+## 🔍 Searching Algorithms
+- Linear Search
+- Binary Search
 
-🧪 Automatic Test Data Generation
+---
 
-📈 Performance Tracking using System.nanoTime()
+## 🌐 Graph Algorithms
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
 
-📂 Result Management System
+---
 
-🏗️ Project Architecture
+## 🧪 Performance Analysis
+- Automatic Test Data Generation
+- Runtime Measurement using `System.nanoTime()`
+- Execution Time Comparison
+- Result Management System
 
-The project follows a clean modular package structure:
+---
 
+# 🏗️ Project Architecture
+
+```
 com.algorithmtracker
 │
-
 ├── Main.java
-
 │
-
 ├── ui/
-
 │   └── ConsoleUI.java
-
 │
-
 ├── auth/
-
 │   ├── User.java
-
 │   ├── UserManager.java
-
 │   └── UserExporter.java
-
 │
-
 ├── algorithm/
-
 │   ├── Algorithm.java
-
 │   ├── SortingAlgorithms.java
-
 │   ├── SearchingAlgorithms.java
-
 │   └── GraphAlgorithms.java
-
 │
-
 ├── performance/
-
 │   └── PerformanceTracker.java
-
 │
-
 ├── data/
-
-│   └── TestDataGenerator.
-
+│   └── TestDataGenerator.java
 │
-
 └── result/
-
     └── ResultManager.java
+```
 
-🔹 Separation of Concerns
+---
 
-UI Layer → Handles user interaction
+# 🔹 Separation of Concerns
 
-Auth Module → Manages user login & registration
+✔ UI Layer → Handles user interaction  
+✔ Auth Module → Manages login & registration  
+✔ Algorithm Module → Contains all algorithm implementations  
+✔ Performance Module → Measures execution time  
+✔ Data Module → Generates test inputs  
+✔ Result Module → Stores and displays results  
 
-Algorithm Module → Contains all algorithm implementations
+This ensures clean, maintainable, and scalable code.
 
-Performance Module → Measures execution time
+---
 
-Data Module → Generates test inputs
+# 🧠 OOP Concepts Implemented
 
-Result Module → Stores and displays results
+✅ Encapsulation  
+✅ Abstraction (Algorithm Interface)  
+✅ Polymorphism  
+✅ Modular Design  
+✅ Interface-Based Programming  
 
-🧠 OOP Concepts Implemented
+---
 
-✅ Encapsulation
+# ⚙️ How The Application Works
 
-✅ Abstraction (Algorithm interface)
+1️⃣ Application starts from `Main.java`  
+2️⃣ User registers or logs in  
+3️⃣ User selects an algorithm  
+4️⃣ Test data is generated automatically  
+5️⃣ Selected algorithm executes  
+6️⃣ Execution time is recorded  
+7️⃣ Results are displayed and stored  
 
-✅ Polymorphism
+---
 
-✅ Modular Design
-
-✅ Interface-based Programming
-
-⚙️ How the Application Works
-
-The application starts from Main.java
-
-User registers or logs in
-
-User selects an algorithm
-
-Test data is generated automatically
-
-Selected algorithm executes
-
-Execution time is recorded
-
-Results are displayed and stored
-
-📈 Performance Measurement
+# 📈 Performance Measurement
 
 Execution time is measured using:
 
+```java
 long start = System.nanoTime();
 algorithm.execute();
 long end = System.nanoTime();
+```
 
+This allows precise runtime comparison between algorithms.
 
-This allows comparison between different algorithms based on runtime performance.
+---
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 
-Java
+- Java
+- Object-Oriented Programming
+- Console-Based UI
+- Data Structures & Algorithms
 
-Object-Oriented Programming
+---
 
-Console-Based UI
-
-Data Structures & Algorithms
-
-💡 Purpose of the Project
+# 💡 Purpose of the Project
 
 This project was built to:
 
-Practically understand time complexity
+✔ Practically understand time complexity  
+✔ Compare algorithm efficiency  
+✔ Apply OOP concepts in a structured system  
+✔ Build a strong resume-level Java project  
 
-Compare algorithm efficiency
+---
 
-Apply OOP concepts in a structured system
+# 🔮 Future Improvements
 
-Build a resume-level Java project
+✨ GUI Version (Java Swing / JavaFX)  
+✨ Database Integration (MySQL)  
+✨ Export results to CSV  
+✨ Graphical performance visualization  
+✨ Multi-threaded execution support  
 
-🔮 Future Improvements
+---
 
-GUI Version (Java Swing / JavaFX)
+# ▶️ How To Run
 
-Database Integration (MySQL)
+### 1️⃣ Clone Repository
 
-Export results to CSV
-
-Graphical performance visualization
-
-Multi-threaded execution support
-
-▶️ How to Run
-
-Clone the repository:
-
+```bash
 git clone https://github.com/your-username/AlgoTracker.git
+```
 
+### 2️⃣ Open in IDE
+- IntelliJ IDEA
+- Eclipse
+- VS Code (with Java extensions)
 
-Open in IntelliJ / Eclipse
+### 3️⃣ Run
+Execute:
 
-Run Main.java
+```
+Main.java
+```
 
+---
 
-📌 Author
+# 👨‍💻 Author
 
-Aditya Kanwar
+### 💙 Aditya Kanwar  
+Java & Data Structures Enthusiast  
 
-Java & Data Structures Enthusiast
+---
+
+<p align="center">
+  ⭐ If you found this project useful, consider giving it a star!
+</p>
