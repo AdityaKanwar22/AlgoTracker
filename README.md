@@ -189,7 +189,9 @@ Open in IntelliJ / Eclipse
 
 Run Main.java
 
+
 📌 Author
 
-Your Name
+Aditya Kanwar
+
 Java & Data Structures Enthusiast
