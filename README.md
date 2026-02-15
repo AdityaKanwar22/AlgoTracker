@@ -42,29 +42,53 @@ The project follows a clean modular package structure:
 
 com.algorithmtracker
 │
+
 ├── Main.java
+
 │
+
 ├── ui/
+
 │   └── ConsoleUI.java
+
 │
+
 ├── auth/
+
 │   ├── User.java
+
 │   ├── UserManager.java
+
 │   └── UserExporter.java
+
 │
+
 ├── algorithm/
+
 │   ├── Algorithm.java
+
 │   ├── SortingAlgorithms.java
+
 │   ├── SearchingAlgorithms.java
+
 │   └── GraphAlgorithms.java
+
 │
+
 ├── performance/
+
 │   └── PerformanceTracker.java
+
 │
+
 ├── data/
-│   └── TestDataGenerator.java
+
+│   └── TestDataGenerator.
+
 │
+
 └── result/
+
     └── ResultManager.java
 
 🔹 Separation of Concerns
